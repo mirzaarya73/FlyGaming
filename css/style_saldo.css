@@ -1,0 +1,103 @@
+/* style.css */
+body {
+    background-color: #f0f8ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.saldo-container {
+    max-width: 400px;
+    margin: 100px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 100, 0.1);
+    border-top: 6px solid #007bff;
+}
+
+.saldo-container h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.saldo-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Tambahan untuk input file */
+.saldo-form input[type="file"] {
+    width: 92%;
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #007bff;
+    border-radius: 6px;
+    background-color: #fff;
+    outline: none;
+    transition: 0.3s;
+    color: #333;
+}
+
+.saldo-form input[type="file"]:focus {
+    border-color: #0056b3;
+}
+
+#bukti{
+    margin-bottom: 40px;
+}
+
+/* Desain info rekening tujuan */
+.rekening-info {
+    background-color: #f0f7ff;
+    border-left: 4px solid #007bff;
+    padding: 12px 16px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+    border-radius: 8px;
+    line-height: 1.6;
+}
+
+
+.saldo-form input[type="number"] {
+    width: 92%;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.saldo-form input[type="number"]:focus {
+    border-color: #0056b3;
+}
+
+.saldo-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+
+}
+
+.back-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: white;
+  color: #4070f4;
+  border: 2px solid #4070f4;
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s, color 0.3s;
+}
